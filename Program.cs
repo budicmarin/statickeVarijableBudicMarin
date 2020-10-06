@@ -14,6 +14,8 @@ namespace statickeVarijableBudicMarin
      
             PrvaKlasa y= new PrvaKlasa("Ivica", "Ivić");
             PrvaKlasa z = new PrvaKlasa();
+            z.Ime = "Mile";
+            z.Prezime = "Milorad";
             Console.WriteLine(x+"\n"+y+"\n"+z);
             
             Console.ReadKey();
